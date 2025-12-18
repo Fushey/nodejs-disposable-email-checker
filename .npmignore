@@ -1,0 +1,15 @@
+src/
+examples/
+tests/
+*.test.ts
+*.test.js
+jest.config.js
+tsconfig.json
+.gitignore
+.github/
+generate_header_image.py
+push_to_github.py
+create_release.py
+CHANGELOG.md
+CONTRIBUTING.md
+
