@@ -1,0 +1,50 @@
+{
+  "name": "@tempmailchecker/node-sdk",
+  "version": "1.0.0",
+  "description": "Node.js SDK for TempMailChecker API - Detect disposable email addresses in real-time",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "email",
+    "disposable",
+    "temporary",
+    "validation",
+    "tempmail",
+    "spam",
+    "api",
+    "sdk",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "TempMailChecker <support@tempmailchecker.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fushey/nodejs-disposable-email-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fushey/nodejs-disposable-email-checker/issues"
+  },
+  "homepage": "https://github.com/Fushey/nodejs-disposable-email-checker#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
